@@ -3,7 +3,14 @@
 
 类似这种报错Info: `Error: ld: library not found for "-lstdc++.6"`
 
-## Usage
+
+## Usage1
+根据Usage2脚本化shell文件。
+进入shell文件目录，直接执行 shell.sh 文件
+$./shell.sh
+
+
+## Usage2
 根据调试方式不同，真机和模拟器文件放置路径存在差异，分别复制对应的Lib文件到下面的路径即可解决Xcode编译报错
 
 ### For Device
